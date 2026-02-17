@@ -1,2 +1,2 @@
-# Playwright-
+# Playwright
 Practice Automation Testing 
