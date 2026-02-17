@@ -11,7 +11,6 @@ test("Student Application Delete ", async ({ page }) => {
     const scroll = page.locator('th:has-text("Last Activity")');
     await scroll.scrollIntoViewIfNeeded();
     await expect(scroll).toBeVisible();
-    await page.waitForTimeout(2000);
     await page.getByRole('button', { name: 'Delete' }).nth(0).click();
     await page.waitForTimeout(1000);
     const modal = page.locator('.fi-modal-footer');
