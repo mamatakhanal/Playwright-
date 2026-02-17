@@ -12,6 +12,7 @@ test("Student Login Page", async ({ page }) => {
 
   await page.waitForTimeout(5000);
 
+  
   /*
       // Wait for the element to be visible first
       await page.locator(".fi-avatar").first().waitFor({
